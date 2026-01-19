@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+font-family: "Inter", sans-serif;
+ color: #FFFFFF;
+
+}
+
+/* shared style */
+.btn{
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius:100px;
+  font-weight: 600;
+  background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+  cursor: pointer;
+}
+
+
+header, #podcast{
+  margin: 0 auto;
+  max-width: 1600px;
+  background: #1A0B2E;
+}
+#navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 24px 0;
+  align-items: center;
+  border: 1px solid #412567;
+
+}
+.nav-img{
+  max-width: 200px;
+}
+#navbar img{
+  width: 100%;
+}
+.menu{
+list-style: none;
+display: flex;
+gap: 30px;
+}
+.menu a{
+text-decoration: none;
+ color: #FFFFFF;
+ font-weight: 500;
+}
+
+.hamburger-menu{
+  display:none;
+}
+
+#banner{
+  height: 760px;
+  background: center url(images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+ 
+}
+.banner-img{
+  position: relative;
+  top:14%;
+  display: block;
+}
+.banner-icon {
+  position: absolute;
+  left: 46%;
+  top: 30%;
+}
+.banner-content{
+ margin-top: 130px;
+}
+.banner-title{
+  font-size:3.75rem ;
+  font-weight: 800;
+}
+.banner-description{
+  opacity: .8;
+  margin-bottom: 24px;
+}
+.btn-color{
+  color: #00FF88;
+  border:2px solid #00FF88;
+  background: none;
+}
+
+{
+  background: #1A0B2E;
+}
+
+
+
+
+
+@media screen and (max-width:576px){
+  .hamburger-menu{
+    display: block;
+  }
+ #navbar{
+ justify-content: space-between;
+ padding-right:8px;
+ padding-left:8px;
+
+ }
+
+  .menu, nav>.btn{
+    display: none;
+  }
+  #banner{
+    max-width: 100%;
+   
+  }
+}
