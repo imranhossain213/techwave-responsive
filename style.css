@@ -96,6 +96,15 @@ text-decoration: none;
   top:14%;
   display: block;
 }
+.badge-btn{
+  position: absolute;
+  left:56%;
+  top: 5%;
+  font-size: 18px;
+  font-weight: 700;
+  background: #00FF88;
+  padding: 8px 16px;
+}
 .banner-icon {
   position: absolute;
   left: 46%;
@@ -255,7 +264,6 @@ text-decoration: none;
 }
 
 .host-social img{
-  width: 30px;
  margin-right: 10px;
 }
 
@@ -282,6 +290,9 @@ footer{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 32px;
+}
+.footer-content p{
+  font-weight: 500;
 }
 .footer-content span ,.copy-right{
   opacity: .6;
@@ -316,6 +327,9 @@ footer{
     max-width: 100%;
   
    
+  }
+  .badge-btn{
+    left:70%;
   }
   .podcast-container{
     width: 100%;
