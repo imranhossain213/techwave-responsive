@@ -13,7 +13,7 @@ font-family: "Inter", sans-serif;
 
 
 
-header, #podcast ,#choosing ,#features ,#hosts{
+header, #podcast ,#choosing ,#features ,#hosts ,footer{
   margin: 0 auto;
   max-width: 1600px;
   background: #1A0B2E;
@@ -42,6 +42,13 @@ header, #podcast ,#choosing ,#features ,#hosts{
   border-radius:100px;
   font-weight: 600;
   background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+  cursor: pointer;
+}
+.btn:hover{
+ background: linear-gradient(to top right, #F7E93F80, #FB09B480, #9100F880);
+
+}
+.host-social img:hover, .footer-content p{
   cursor: pointer;
 }
 
@@ -251,13 +258,34 @@ text-decoration: none;
   width: 30px;
  margin-right: 10px;
 }
-.host-social img:hover{
-  cursor: pointer;
+
+footer{
+  height: 380px;
+  background: center url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+ 
+
 }
-
-
-
-
+.footer-container{
+  text-align: center;
+  padding: 20px 0;
+}
+.footer-container img{
+  margin-bottom: 32px;
+  opacity: 1;
+}
+.footer-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 32px;
+}
+.footer-content span ,.copy-right{
+  opacity: .6;
+}
 
 
 
@@ -286,6 +314,7 @@ text-decoration: none;
   }
   #banner{
     max-width: 100%;
+  
    
   }
   .podcast-container{
@@ -324,4 +353,14 @@ text-decoration: none;
   text-align: center;
   flex-direction: column;
 }
+  footer {
+    height: auto;
+   
+  }
+
+.footer-content{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
 }
