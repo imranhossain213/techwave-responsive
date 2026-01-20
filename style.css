@@ -301,7 +301,30 @@ footer{
 
 
 
+@media screen and (min-width:576px) and (max-width:992px) {
+  .badge-btn{
+       left:59%;
+   }
+  .box1{
+  padding:20px 8px 20px 20px;
+   }
+.box5 > .box-title{
+  font-size: 20px;
+}
 
+  .feature-title{
+  font-size: 16px;
+ }
+ .features-card{
+  gap: 10px;
+}
+.media-content{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+}
 
 
 
